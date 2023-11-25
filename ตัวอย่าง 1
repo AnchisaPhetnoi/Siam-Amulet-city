@@ -1,0 +1,1698 @@
+<!DOCTYPE html>  <html lang="en">  <head>  	<meta charset="UTF-8">  	<meta name="viewport" content="width=device-width, initial-scale=1">  	<meta name="description" content="ท่าพระจันทร์ดอทคอม | ThaprachanDotCom หมวด: พระกรุ (4,792)">  	<meta name="keywords" content="ท่าพระจันทร์ดอทคอม, ThaprachanDotCom, ท่าพระจันทร์, Thaprachan, พระเครื่อง, เช่าพระ, บูชาพระ, พระ, พระกรุ">  	<title>ท่าพระจันทร์ดอทคอม | ThaprachanDotCom : พระกรุ</title>  	<base href="https://www.thaprachan.com/">  	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">  	<link href="stylesheets/screen2.css" rel="stylesheet" type="text/css">  	<link href="stylesheets/screen3.css" rel="stylesheet" type="text/css">  	<link rel="shortcut icon" href="images/favicons/favicon-57.png" />  	<link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />  	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/favicon-57.png">  	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/favicon-57.png">  	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/favicon-72.png">  	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicons/favicon-114.png">  	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">  	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicons/favicon-144.png">  	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">  	<script src="js/jquery-2.0.2.min.js"></script>  	<script src="js/html5.js"></script>  	<script src="js/jquery.matchHeight-min.js"></script>  	<script src="js/imagesloaded.pkgd.min.js"></script>  	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">  	<script src="js/jquery-ui/jquery-ui.min.js"></script>  	<script src="js/jquery-validation/jquery.validate.min.js"></script>  	<script src="js/jquery-validation/additional-methods.js"></script>  	<script src="js/jquery-validation/localization/messages_th.js"></script>  	<link rel="stylesheet" href="js/alertifyjs/css/alertify.min.css" />  	<link rel="stylesheet" href="js/alertifyjs/css/themes/default.min.css" />  	<script src="js/alertifyjs/alertify.min.js"></script>  		<style>  	/*.alertify .ajs-dialog {  		top: 50%;  		transform: translateY(-50%);  		margin: auto;  	}  	.alertify.ajs-maximized .ajs-dialog {  		transform: inherit;  	}*/  	.alertify .ajs-content {  		max-height: 400px;  		overflow: auto;  		word-wrap: break-word;  	}  	.alertify.ajs-maximized .ajs-content {  		max-height: inherit;  	}  	</style>  	<script type="text/javascript">  	var set_close;  		alertify.defaults = {  				autoReset:true,  				basic:false,  				closable:true,  				closableByDimmer:true,  				frameless:false,  				maintainFocus:true,  				maximizable:false,  				modal:true,  				movable:false,  				moveBounded:false,  				overflow:true,  				padding: true,  				pinnable:true,  				pinned:true,  				preventBodyShift:false,  				resizable:true,  				startMaximized:false,  				transition:'fade',    				notifier:{  						delay:5,  						position:'bottom-right',  						closeButton: false  				},    				glossary:{  						title:'ท่าพระจันทร์ ดอทคอม',  						ok: 'ตกลง',  						cancel: 'ยกเลิก'  				},    				theme:{  						input:'ajs-input',  						ok:'ajs-ok',  						cancel:'ajs-cancel'  				}  	};    	function show_popup_alert(id,next){  		console.log('show_popup_alert - '+id+' - '+next+' - '+next.length);  		if(id.length > 0 || id > 0)  		{  			console.log('OK');  			next_new = '';  			id_next = '';    			if(next.length > 0)  			{  				next_arr = next.split("|");  				id_next = next_arr.shift();  				next_new = next_arr.join("|");  				console.log(id_next+' - '+next_new);  			}    			alertify.alert($('#popup-detail'+id).html()).set({  				'maximizable':true,  				'closable':true,  				onshow:function(){ alertify.alert().set({'maximizable':false, 'closable':true});},  				onclose:function(){ setTimeout( function() { show_popup_alert(id_next,next_new) }, 400);},  			});  		}  	}  	</script>  <script src="js/jquery.waypoints.min.js"></script> </head> <body> 	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> 	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> 	<header role="banner">  	<div class="fixwidth">  		<!-- xxxxxxxxxxxxxxxxxxxxx -->  		<a href="https://www.thaprachan.com" class="logo">  			<img src="images/Thaprachan_Logo--Original.svg" alt="">  		</a>  		<!-- xxxxxxxxxxxxxxxxxxxxx -->  		<!-- xxxxxxxxxxxxxxxxxxxxx -->  	</div>  	<nav class="clearfix main_menu">  		<div class="fixwidth main_menu--wrapper">  			<ul class="main_menu--navigation">  				  				<li id="menu-regis" style="height:auto;">  					<div class="device"><a href="javascript: void(0)" class="btn_radius brown login show_login">เข้าสู่ระบบ</a></div>  					<div class="device"><a href="register" class="btn_radius yellow i_register">ลงทะเบียนเฉพาะเปิดร้านค้าเท่านั้น</a></div>  				</li>  				<li id="menu_home"><a href="https://www.thaprachan.com">หน้าหลัก</a></li>  				<li id="menu_amulet"><a href="amulet">รายการอัพเดท</a></li>  				<li id="menu_amulet-top"><a href="amulet-top">รายการพระเด่น</a></li>  				<li id="menu_shop"><a href="shop">ร้านพระมาตรฐาน</a></li>  				<li id="menu_cer" class="show-mobile"><a href="https://certificate.thaprachan.com/">ตรวจ Cer พระแท้</a></li>  				<li id="menu_news"><a href="news">ข่าวประชาสัมพันธ์</a></li>  				<li id="menu_term"><a href="regulations">ระเบียบการใช้งาน</a></li>  				<li id="menu_contact"><a href="contact">ติดต่อ</a></li>  			</ul>  			<!-- xxxxxxxxxxxxxxxxxxxxx -->  			<div class="main_menu--module_user">  				<!-- <span class="counter">  					<button class="btn_round gray swap_notifications">รายการอัพเดท<span class="data_counter" style="display:none;">10+</span>  					</button>  					<div class="notifications"></div>  				</span> -->  				<a id="button-regis" href="register" class="btn_radius yellow i_register">ลงทะเบียนเฉพาะเปิดร้านค้าเท่านั้น</a>  				<a id="button-login" href="javascript: void(0)" class="btn_radius brown login show_login">เข้าสู่ระบบ</a>  				<!-- after login -->  				  				  				<!-- after login -->  				<button class="toggle_menu"></button>  			</div>  		</div>  	</nav>  </header>  <div class="user_login content_popup">  	<div class="user_login--wrap delay_time" id="login_form"><form method="POST" action="https://www.thaprachan.com/tologin" accept-charset="UTF-8" id="form_login" name="form_login"><input name="_token" type="hidden" value="NjPcvZf1YXwAcZzBh9gCwPr9SUpsF5kopwkvb6jK">   		<header class="icon_login">  			<h4>เข้าสู่ระบบ</h4>  		</header>  		<div class="row">  			<label for="">Username</label>  			<input placeholder="Username" id="form-user" name="form-user" type="text" value="">  		</div>  		<!--____________-->  		<div class="row">  			<label for="">Password</label>  			<input placeholder="รหัสผ่าน" id="form-pass" name="form-pass" type="password" value="">  		</div>  		<!--____________-->  		<footer class="row">  			<button class="btn_radius yellow close_login">เข้าสู่ระบบ</button><a href="/contact" id="forgot_link">ลืมรหัสผ่าน</a>  		</footer>  		<!--____________-->  	</form>			  <script>
+				$("#form_login").validate({
+					errorClass: "form-error",
+					rules: {
+						'form-user': { required: true },'form-pass': { required: true }
+					}
+				});
+			  </script></div>  	<div class="user_login--wrap delay_time" id="forgot_form" style="display:none;"><form method="POST" action="https://www.thaprachan.com/toforgot" accept-charset="UTF-8" id="form_forgot" name="form_forgot"><input name="_token" type="hidden" value="NjPcvZf1YXwAcZzBh9gCwPr9SUpsF5kopwkvb6jK">   		<header class="icon_login">  			<h4>ลืมรหัสผ่าน</h4>  		</header>  		<div class="row">  			<label for="">Email</label>  			 <input placeholder="Email" id="form-email" name="form-email" type="text" value="">  		</div>  		<!--____________-->  		<footer class="row">  			<button class="btn_radius yellow close_login">ขอรหัสผ่านใหม่</button><a href="javascript:void(0);" id="login_link">เข้าสู่ระบบ</a>  		</footer>  		<!--____________-->  	</form>			  <script>
+				$("#form_forgot").validate({
+					errorClass: "form-error",
+					rules: {
+						'form-email': { required: true,email: true }
+					}
+				});
+			  </script></div>  </div>  	<!-- xxxxxxxxxxxxxxxxxxxxx --> 	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> 	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> 	<link href="stylesheets/light-carousel.css" rel="stylesheet" type="text/css"> <div class="products_detail content_popup"> </div> <script src="js/jquery.light-carousel.js"></script> <input type="hidden" id="product_popup" name="product_popup" value="products_detail_ajax"> <input type="hidden" id="popup_open" name="popup_open" value=""> <script> 	var p_popup = $('#product_popup').val(); 	function open_popup() 	{ 		$( ".products_detail" ).addClass( "active" ); 		$( "body" ).addClass( "clearscroll" ); 	} 	function show_popup() 	{ 		$( ".view_products" ).click(function(e) { 			/*e.stopPropagation();*/ 			var url = $(this).prop("href"); 			if(e.originalEvent.ctrlKey || e.originalEvent.shiftKey){ 				/*window.open($(this).prop("href"), "_blank");*/ 			} else { 				clearTimeout(set_close); 				$('.products_detail').html('<div class="th_loading"></div>'); 				url = url.replace('amulet_detail', p_popup); 				if($('#popup_open').val() != url) 				{ 					$('#popup_open').val(url); 					$.get(url, function (data) { 						/*success data 						console.log(data);*/ 						$('.products_detail').html(data); 					}); 					open_popup(); 				} 				return false; 			} 		}); 	} 	$(document).ready(function(){ 		show_popup(); 	}); </script> 	<main class="area" role="main"> 		<div class="pages_wrapper"> 			<aside class="center1"> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<div class="widget sort_category"> 	<header class="i_con category"> 		<h3>หมวดพระเครื่อง</h3> 	</header> 	<div class="box_solid"> 		<nav> 			<ul id="pra-category"><li><a href="category-amulet/พระบูชา"><span>พระบูชา</span></a></li><li class="active"><a href="category-amulet/พระกรุ"><span>พระกรุ</span></a></li><li><a href="category-amulet/พระกริ่ง"><span>พระกริ่ง</span></a></li><li><a href="category-amulet/พระชัย"><span>พระชัย</span></a></li><li><a href="category-amulet/พระปิดตา"><span>พระปิดตา</span></a></li><li><a href="category-amulet/พระเนื้อผง-ดิน-ว่าน"><span>พระเนื้อผง/ดิน/ว่าน</span></a></li><li><a href="category-amulet/เหรียญหล่อ-ปั้ม"><span>เหรียญหล่อ/ปั้ม</span></a></li><li><a href="category-amulet/รูปหล่อ"><span>รูปหล่อ</span></a></li><li><a href="category-amulet/เครื่องราง"><span>เครื่องราง</span></a></li><li><a href="category-amulet/อื่นๆ"><span>อื่นๆ</span></a></li></ul> 		</nav> 	</div> </div> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<div class="widget top_shop"> 	<header class="i_con shop"> 		<h3>ร้านค้าแนะนำ</h3> 	</header> 	<div> 		<ul id="shop-category" class="clearfix"><li><a href="/ตี๋ นาดูน" class="list_avatar" style="position:relative;"><img src="images/content/thumbs-guide--180x180.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="พระเครื่องชาวระยอง" style="background-image:url('images/content/thumbs-guide--180x180.jpg')"></a></li><li><a href="/สุธีพระเครื่อง" class="list_avatar" style="position:relative;"><img src="thumb-shop/2715-owner-4882.gif" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="สุธีพระเครื่อง" style="background-image:url('thumb-shop/2715-owner-4882.gif')"></a></li><li><a href="/meechai" class="list_avatar" style="position:relative;"><img src="thumb-shop/01-01-17-01-09-14-4570.gif" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="มีชัยพระเครื่อง" style="background-image:url('thumb-shop/01-01-17-01-09-14-4570.gif')"></a></li><li><a href="/แกะ-อ่างทอง-พระเครื่อง" class="list_avatar" style="position:relative;"><img src="thumb-shop/5536-owner-6774.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="แกะ อ่างทอง พระเครื่อง" style="background-image:url('thumb-shop/5536-owner-6774.jpg')"></a></li><li><a href="/ดม ปากน้ำ" class="list_avatar" style="position:relative;"><img src="thumb-shop/16-12-15-20-52-10-3491.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="อุดม ปากน้ำ" style="background-image:url('thumb-shop/16-12-15-20-52-10-3491.jpg')"></a></li><li><a href="/๙พระเครื่องเพอร์เฟค" class="list_avatar" style="position:relative;"><img src="thumb-shop/5238-owner-4633.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="๙พระเครื่องเพอร์เฟค" style="background-image:url('thumb-shop/5238-owner-4633.jpg')"></a></li><li><a href="/พีรพัฒน์-บ้านพระเครื่อง" class="list_avatar" style="position:relative;"><img src="thumb-shop/5464-owner-8505.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="พีรพัฒน์ บ้านพระเครื่อง" style="background-image:url('thumb-shop/5464-owner-8505.jpg')"></a></li><li><a href="/มาณพ3" class="list_avatar" style="position:relative;"><img src="thumb-shop/28-07-17-05-16-50-1069.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="มาณพ3 " style="background-image:url('thumb-shop/28-07-17-05-16-50-1069.jpg')"></a></li><li><a href="/ธง-พระราม-3----สาขาที่-2-" class="list_avatar" style="position:relative;"><img src="images/content/thumbs-guide--180x180.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="ธง พระราม 3   (สาขาที่ 2)" style="background-image:url('images/content/thumbs-guide--180x180.jpg')"></a></li><li><a href="/ประภากร--โอ๊ด-วัดหนังฯ-" class="list_avatar" style="position:relative;"><img src="thumb-shop/5484-owner-1151.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="ประภากร (โอ๊ด วัดหนังฯ)" style="background-image:url('thumb-shop/5484-owner-1151.jpg')"></a></li><li><a href="/เดียร์-เมืองรถม้า" class="list_avatar" style="position:relative;"><img src="thumb-shop/5321-owner-7377.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="เดียร์ เมืองรถม้า" style="background-image:url('thumb-shop/5321-owner-7377.jpg')"></a></li><li><a href="/Joeprasasom" class="list_avatar" style="position:relative;"><img src="thumb-shop/16-01-17-17-06-04-4587.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="โจ้ พระสะสม" style="background-image:url('thumb-shop/16-01-17-17-06-04-4587.jpg')"></a></li><li><a href="/ฮอต-ระยองสิงห์พ่อหอมแพะพ่ออ่ำ" class="list_avatar" style="position:relative;"><img src="thumb-shop/5773-owner-7992.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="ฮอต ระยองสิงห์พ่อหอมแพะพ่ออ่ำ" style="background-image:url('thumb-shop/5773-owner-7992.jpg')"></a></li><li><a href="/กบหลักสี่" class="list_avatar" style="position:relative;"><img src="thumb-shop/4756-owner-9572.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="กบหลักสี่" style="background-image:url('thumb-shop/4756-owner-9572.jpg')"></a></li><li><a href="/พระเครื่อง พระคุณพ่อ" class="list_avatar" style="position:relative;"><img src="thumb-shop/26-01-16-17-40-28-4315.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="พระเครื่องพระคุณพ่อ" style="background-image:url('thumb-shop/26-01-16-17-40-28-4315.jpg')"></a></li><li><a href="/สหพัฒน์" class="list_avatar" style="position:relative;"><img src="images/content/thumbs-guide--180x180.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="สหพัฒน์พระเครื่อง" style="background-image:url('images/content/thumbs-guide--180x180.jpg')"></a></li><li><a href="/Amulet678" class="list_avatar" style="position:relative;"><img src="thumb-shop/5679-owner-3388.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="Amulet678" style="background-image:url('thumb-shop/5679-owner-3388.jpg')"></a></li><li><a href="/thonburi amulet" class="list_avatar" style="position:relative;"><img src="thumb-shop/4037-owner-8344.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="ธนบุรี Amulet" style="background-image:url('thumb-shop/4037-owner-8344.jpg')"></a></li><li><a href="/กล้า-กรุงเก่า-FC-" class="list_avatar" style="position:relative;"><img src="thumb-shop/4985-owner-0585.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="กล้า กรุงเก่า FC." style="background-image:url('thumb-shop/4985-owner-0585.jpg')"></a></li><li><a href="/โต้ง-นนทบุรี" class="list_avatar" style="position:relative;"><img src="thumb-shop/5537-owner-6821.jpg" style="width:100% !important;height:100% !important;opacity:0;z-index:2;top:0;left:0;position:absolute;"><img src="images/content/blank_img2.png" alt="โต้ง นนทบุรี" style="background-image:url('thumb-shop/5537-owner-6821.jpg')"></a></li></ul> 	</div> </div> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<div class="widget web_state"> 					<header class="i_con state"> 						<h3>สถิติเว็บไซต์</h3> 					</header> 					<ul id="stat-show"><li><span>สินค้า</span><strong>86,848</strong></li><li><span>ผู้ชมทั้งหมด</span><strong>317,207,963</strong></li><li><span>ผู้ชมวันนี้</span><strong>54,522</strong></li><li><span>ผู้ชมขณะนี้</span><strong>511</strong></li></ul> 				</div> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 			</aside> 			<!--_____________________________________________________--> 			<article class="center2 page_search--setting"> 				<div class="functions_center"> 					<header class="last_update"> 						<h2 class="pt-clear">หมวด: พระกรุ <span>(4,792)</span></h2> 					</header> 					<div class="clearfix page_function_search"> 						<div class="function_search"> 							<script> $( function() { 	$( "#search-box" ).autocomplete({ 		delay: 0, 		source: function( request, response ) { 			$.ajax( { 				url: "/check_search/"+request.term, 				dataType: "jsonp", 				data: {search: 'category', cat: $('#s_cat_id').val() }, 				success: function( data ) { 					response( data ); 				} 			} ); 		}, 		select: function( event, ui ) { 			window.location.href = ui.item.url; 		} 	}); 	$( ".btn_search" ).click(function(){ 		go_search(); 	}); } ); function go_search() { 	url = '/search-category/'+$('#s_cat_id').val()+'/'; 	key = $( "#search-box" ).val(); 	if(key.length > 0) 	{ 		window.location = url+key; 	} 	else 	{ 		alertify.alert('กรุณาใส่คำที่ต้องการค้นหา'); 	} } </script> <form name="form1" id="form1" onsubmit="go_search();return false;"> 	<div class="searchPra"> 		<input id="search-box" name="search_box" type="text" placeholder="พระเครื่อง"> 		<input type="hidden" id="s_cat_id" name="s_cat_id" value="พระกรุ">		<button class="btn_search">ค้นหา</button> 	</div> </form> 						</div> <!-- 						<button class="btn_round gray show_alphabet i_alphabet"></button> --> 					</div> <!-- 					<div class="main_search--tag"> 						<div class="clearfix alphabets_functions"> 	<div class="wrap_search"> 		<div class="alphabets_title"> 			<strong>ค้นหาตามตัวอักษร :</strong> 		</div> 		<div class="alphabets_lists"> 			<div class="language"> 				<a href="">ก</a> 				<a href="">ข</a> 				<a href="">ฃ</a> 				<a href="">ค</a> 				<a href="">ฅ</a> 				<a href="">ฆ</a> 				<a href="">ง</a> 				<a href="" class="active">จ</a> 				<a href="">ฉ</a> 				<a href="">ช</a> 				<a href="">ซ</a> 				<a href="">ฌ</a> 				<a href="">ญ</a> 				<a href="">ฎ</a> 				<a href="">ฏ</a> 				<a href="">ฐ</a> 				<a href="">ฑ</a> 				<a href="">ฒ</a> 				<a href="">ณ</a> 				<a href="">ด</a> 				<a href="">ต</a> 				<a href="">ถ</a> 				<a href="">ท</a> 				<a href="">ธ</a> 				<a href="">น</a> 				<a href="">บ</a> 				<a href="">ป</a> 				<a href="">ผ</a> 				<a href="">ฝ</a> 				<a href="">พ</a> 				<a href="">ฟ</a> 				<a href="">ภ</a> 				<a href="">ม</a> 				<a href="">ย</a> 				<a href="">ร</a> 				<a href="">ล</a> 				<a href="">ว</a> 				<a href="">ศ</a> 				<a href="">ษ</a> 				<a href="">ส</a> 				<a href="">ห</a> 				<a href="">ฬ</a> 				<a href="">อ</a> 				<a href="">ฮ</a> 			</div> 			<div class="language"> 				<a href="">a</a> 				<a href="">b</a> 				<a href="">c</a> 				<a href="">d</a> 				<a href="">e</a> 				<a href="">f</a> 				<a href="">g</a> 				<a href="">h</a> 				<a href="">i</a> 				<a href="">j</a> 				<a href="">k</a> 				<a href="">l</a> 				<a href="">m</a> 				<a href="">n</a> 				<a href="">o</a> 				<a href="">p</a> 				<a href="">q</a> 				<a href="">r</a> 				<a href="">s</a> 				<a href="">t</a> 				<a href="">u</a> 				<a href="">v</a> 				<a href="">w</a> 				<a href="">x</a> 				<a href="">y</a> 				<a href="">z</a> 			</div> 		</div> 		<footer class="close_alphabets"> 			<button class="btn brown">ยกเลิก</button> 		</footer> 	</div> </div> 					</div> --> 					<form method="post"> 	<input type="hidden" name="_token" value="NjPcvZf1YXwAcZzBh9gCwPr9SUpsF5kopwkvb6jK">	<div id="paging-top" class="paging"><a href="category-amulet/พระกรุ/2" class="previous_page">ก่อนหน้า</a><a href="category-amulet/พระกรุ">1</a><a href="category-amulet/พระกรุ/2">2</a><a href="category-amulet/พระกรุ/3" class="active">3</a><a href="category-amulet/พระกรุ/4">4</a><a href="category-amulet/พระกรุ/5">5</a> ... <a href="category-amulet/พระกรุ/80">80</a><a href="category-amulet/พระกรุ/4" class="next_page">ถัดไป</a>  		 		 		 		 		 		 		 		 		 		 		  		<div class="sort_pages"> 			<span>ไปยังหน้า</span> 			<input type="text" name="go_page"> 			<button class="btn">ตกลง</button> 		</div> 	</div> </form> 					<!-- xxxxxxxxxxxxxxxxxxxxx --> 					<section id="product-show" class="last_update pt-xl"> 						<!-- loop card --> 						<div class="list_box clearfix products_lists">	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20035277" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20035277E-7698.jpg" alt="นางวัดใหญ่">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20035277" class="view_products">
+					<h4>นางวัดใหญ่</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>85</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20015277" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20015277E-3344.jpg" alt="พระร่วงยืน">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20015277" class="view_products">
+					<h4>พระร่วงยืน</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>61</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20025698" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20025698E-9242.jpg" alt="พระเปิม  เนื้อดิน จ.ลำพูน ไม่มีหักซ่อม // 2">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20025698" class="view_products">
+					<h4>พระเปิม  เนื้อดิน จ.ลำพูน ไม่มีหักซ่อม // 2</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>65</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20015698" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20015698E-7204.jpg" alt="พระเปิม  เนื้อดิน จ.ลำพูน ไม่มีหักซ่อม">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20015698" class="view_products">
+					<h4>พระเปิม  เนื้อดิน จ.ลำพูน ไม่มีหักซ่อม</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>68</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20024380" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20024380E-8453.jpg" alt="พระปรุหนัง อยุธยา ชินเขียว ติดที่ 3 สวยครับ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20024380" class="view_products">
+					<h4>พระปรุหนัง อยุธยา ชินเขียว ติดที่ 3 สวยครับ</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>138</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sold">ขายแล้ว</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20033423" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20033423E-5191.jpg" alt="พระกรุวัดสามปลื้ม พิมพ์สามเหลี่ยมใหญ่ จ.กรุงเทพฯ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20033423" class="view_products">
+					<h4>พระกรุวัดสามปลื้ม พิมพ์สามเหลี่ยมใหญ่ จ.กรุงเทพฯ</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>108</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">4,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20023423" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20023423E-8444.jpg" alt="พระท่ากระดานน้อย กรุศาลเจ้า จ.ราชบุรี">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20023423" class="view_products">
+					<h4>พระท่ากระดานน้อย กรุศาลเจ้า จ.ราชบุรี</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>61</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">3,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20013423" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20013423E-7633.jpg" alt="พระขุนไกร กรุวัดพระรูป จ.สุพรรณบุรี">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20013423" class="view_products">
+					<h4>พระขุนไกร กรุวัดพระรูป จ.สุพรรณบุรี</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>37</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">1,200</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20065278" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20065278E-3588.jpg" alt="พระพิจิตรยอดโถ ชินเขียว กรุวัดมหาธาตุ พิจิตร เลี่ยมทอง">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20065278" class="view_products">
+					<h4>พระพิจิตรยอดโถ ชินเขียว กรุวัดมหาธาตุ พิจิตร เลี่ยมทอง</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>64</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20045278" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20045278E-7917.jpg" alt="พระนางพญาพิชัย พิมพ์ใหญ่ กรุบึงสัมพันธ์ จ.อุตรดิตถ์">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20045278" class="view_products">
+					<h4>พระนางพญาพิชัย พิมพ์ใหญ่ กรุบึงสัมพันธ์ จ.อุตรดิตถ์</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>58</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20025070" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20025070E-9116.jpg" alt="พระกรุนาดูนตัดเดี่ยว">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20025070" class="view_products">
+					<h4>พระกรุนาดูนตัดเดี่ยว</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>85</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">1,250</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK20015366" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK20015366E-7978.jpg" alt="หลวงพ่อโต กรุวัดบางกะทิง จ.อยุธยา">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK20015366" class="view_products">
+					<h4>หลวงพ่อโต กรุวัดบางกะทิง จ.อยุธยา</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>20.11.2566</span>
+							</td>
+							<td class="view">
+								<span>151</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">15,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19015464" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19015464E-9354.jpg" alt="พระสังกัจจายน์ หลวงพ่อเงิน กรุวัดบางคลาน ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19015464" class="view_products">
+					<h4>พระสังกัจจายน์ หลวงพ่อเงิน กรุวัดบางคลาน </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>163</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19085532" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19085532E-4817.jpg" alt="พระกำแพงเม็ดมะลื่น">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19085532" class="view_products">
+					<h4>พระกำแพงเม็ดมะลื่น</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>92</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19013785" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19013785E-0176.jpg" alt="พระสังกัจจายน์ เนื้อตะกั่วสนิมแดง กรุวัดเชิงท่า  ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19013785" class="view_products">
+					<h4>พระสังกัจจายน์ เนื้อตะกั่วสนิมแดง กรุวัดเชิงท่า  </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>53</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">8,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19035532" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19035532E-3265.jpg" alt="พระลีลาถ้ำหีบ พิมพ์ใหญ่">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19035532" class="view_products">
+					<h4>พระลีลาถ้ำหีบ พิมพ์ใหญ่</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>87</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19015080" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19015080E-7268.jpg" alt="นางกำแพงพิมพ์เศียรโต ชินเงิน ตลับเงินชุบทอง">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19015080" class="view_products">
+					<h4>นางกำแพงพิมพ์เศียรโต ชินเงิน ตลับเงินชุบทอง</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>130</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">3,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK19020297" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK19020297E-6215.jpg" alt="พระนางกำแพง พิมพ์เม็ดมะลื่น กำแพงเพชร">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK19020297" class="view_products">
+					<h4>พระนางกำแพง พิมพ์เม็ดมะลื่น กำแพงเพชร</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>19.11.2566</span>
+							</td>
+							<td class="view">
+								<span>292</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">85,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18031707" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18031707E-3344.jpg" alt="พระกรุนาดูนตัดสี่ เนื้อดิน จ.มหาสารคาม">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18031707" class="view_products">
+					<h4>พระกรุนาดูนตัดสี่ เนื้อดิน จ.มหาสารคาม</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>99</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">4,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18021707" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18021707E-3889.jpg" alt="พระขุนแผนพลายคู่ตัดเดี่ยว กรุวัดบ้านกร่าง จ.สุพรรณบุรี">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18021707" class="view_products">
+					<h4>พระขุนแผนพลายคู่ตัดเดี่ยว กรุวัดบ้านกร่าง จ.สุพรรณบุรี</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>128</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">20,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18011707" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18011707E-2578.jpg" alt="พระพิมพ์ซุ้มเสมาทิศ กรุวัดราชบูรณะ จ.อยุธยา">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18011707" class="view_products">
+					<h4>พระพิมพ์ซุ้มเสมาทิศ กรุวัดราชบูรณะ จ.อยุธยา</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>58</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">3,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18014037" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18014037E-4785.jpg" alt="พระเปิม">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18014037" class="view_products">
+					<h4>พระเปิม</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>110</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">8,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18082474" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18082474E-0358.jpg" alt="วัดพลับพิมพ์สมาธิเข่ากว้าง">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18082474" class="view_products">
+					<h4>วัดพลับพิมพ์สมาธิเข่ากว้าง</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>175</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18025548" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18025548E-8580.jpg" alt="พระกรุวัดบึงพระยาสุเรนทร์ พิมพ์พระเจ้าห้าพระองค์ (นิยม)     ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18025548" class="view_products">
+					<h4>พระกรุวัดบึงพระยาสุเรนทร์ พิมพ์พระเจ้าห้าพระองค์ (นิยม)     </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>77</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sold">ขายแล้ว</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18014808" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18014808E-4910.jpg" alt="พระปางไสยาสน์ กรุวัดมหาธาตุ จ.สุโขทัย">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18014808" class="view_products">
+					<h4>พระปางไสยาสน์ กรุวัดมหาธาตุ จ.สุโขทัย</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>154</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">120,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18034849" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18034849E-5537.jpg" alt="พระซุ้มกอ แผงตัด กรุวัดกะโลทัย จ.กำแพงเพชร ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18034849" class="view_products">
+					<h4>พระซุ้มกอ แผงตัด กรุวัดกะโลทัย จ.กำแพงเพชร </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>255</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">4,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18015471" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18015471E-7424.jpg" alt="พระคงลำพูน กรุเก่า">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18015471" class="view_products">
+					<h4>พระคงลำพูน กรุเก่า</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>171</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">9,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18014916" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18014916E-6855.jpg" alt="พระกำแพงเปิดโลกพิมพ์ใหญ่กรุวัดพิกุล">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18014916" class="view_products">
+					<h4>พระกำแพงเปิดโลกพิมพ์ใหญ่กรุวัดพิกุล</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>172</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18022139" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18022139A-0190.jpg" alt="พระคง ลำพูน สีเขียว มีหน้าตา สวยหายาก">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18022139" class="view_products">
+					<h4>พระคง ลำพูน สีเขียว มีหน้าตา สวยหายาก</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>113</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18045278" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18045278E-2962.jpg" alt="พระพิจิตรเม็ดข้าวเม่า พิมพ์แขนกลมนิยม ชินเขียว เลี่ยมเงิน">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18045278" class="view_products">
+					<h4>พระพิจิตรเม็ดข้าวเม่า พิมพ์แขนกลมนิยม ชินเขียว เลี่ยมเงิน</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>114</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK18051882" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK18051882E-0608.jpg" alt="พระพุทธชินราชใบเสมา กรุวัดพระศรีรัตนมหาธาตุวรมหาวิหาร">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK18051882" class="view_products">
+					<h4>พระพุทธชินราชใบเสมา กรุวัดพระศรีรัตนมหาธาตุวรมหาวิหาร</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>18.11.2566</span>
+							</td>
+							<td class="view">
+								<span>245</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17015033" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17015033A-2364.jpg" alt="พระพุทธชินราชใบเสมา กรุวัดพระศรีรัตนมหาธาตุ พิษณุโลก">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17015033" class="view_products">
+					<h4>พระพุทธชินราชใบเสมา กรุวัดพระศรีรัตนมหาธาตุ พิษณุโลก</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>171</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">6,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17014504" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17014504E-5906.jpg" alt="พระพุทธชินราช กรุเขาสมอแครง พิษณุโลก">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17014504" class="view_products">
+					<h4>พระพุทธชินราช กรุเขาสมอแครง พิษณุโลก</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>106</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">15,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17415801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17415801E-9349.jpg" alt="ซุ้มโดดร่ม วัดราษฎร์บูรณะ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17415801" class="view_products">
+					<h4>ซุ้มโดดร่ม วัดราษฎร์บูรณะ</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>64</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17011685" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17011685E-4226.jpg" alt="สุดเสน่ห์หา มากเมตตามาแต่โบราณ นางพญาองค์งามนิยมสุดระดับท๊อป">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17011685" class="view_products">
+					<h4>สุดเสน่ห์หา มากเมตตามาแต่โบราณ นางพญาองค์งามนิยมสุดระดับท๊อป</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>100</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17045741" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17045741E-8690.jpg" alt="พระนางพญา">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17045741" class="view_products">
+					<h4>พระนางพญา</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>194</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">400,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17015219" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17015219E-0428.jpg" alt="สมเด็จปิลันทน์ พิมพ์ครอบแก้วเล็ก เลี่ยมทอง สวยเดิม ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17015219" class="view_products">
+					<h4>สมเด็จปิลันทน์ พิมพ์ครอบแก้วเล็ก เลี่ยมทอง สวยเดิม </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>132</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">42,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17013297" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17013297A-4725.jpg" alt="นาคปรกพิจิตรพิมพ์พุงป่องเข่าบ่วงติดที่1งานพิจิตร12พย66">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17013297" class="view_products">
+					<h4>นาคปรกพิจิตรพิมพ์พุงป่องเข่าบ่วงติดที่1งานพิจิตร12พย66</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>161</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">15,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17305801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17305801A-9926.jpg" alt="พระคงลำพูนเนื้อขาว กรุเก่า">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17305801" class="view_products">
+					<h4>พระคงลำพูนเนื้อขาว กรุเก่า</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>158</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17295801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17295801A-3668.jpg" alt="หลวงพ่อโตบางกะทิงเนื้อชินเงิน">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17295801" class="view_products">
+					<h4>หลวงพ่อโตบางกะทิงเนื้อชินเงิน</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>107</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17275801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17275801A-4991.jpg" alt="สมเด็จปิลันท์ พิมพ์ครอบแก้วเล็ก">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17275801" class="view_products">
+					<h4>สมเด็จปิลันท์ พิมพ์ครอบแก้วเล็ก</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>111</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17265801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17265801E-9755.jpg" alt="พระพลายงาม กรุวัดพระรูป เนื้อดิน">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17265801" class="view_products">
+					<h4>พระพลายงาม กรุวัดพระรูป เนื้อดิน</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>60</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17025607" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17025607A-2289.jpg" alt="พระกำแพงลีลาหย่อง กรุ วัดพิกุล ลงรักเก่าจัด">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17025607" class="view_products">
+					<h4>พระกำแพงลีลาหย่อง กรุ วัดพิกุล ลงรักเก่าจัด</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>99</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">15,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17205801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17205801E-6982.jpg" alt="พระคงทรงพระบาง กรุเก่า">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17205801" class="view_products">
+					<h4>พระคงทรงพระบาง กรุเก่า</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>125</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17185801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17185801E-0812.jpg" alt="พระสมเด็จปิลันท์ พิมพ์ปรกโพธิ์">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17185801" class="view_products">
+					<h4>พระสมเด็จปิลันท์ พิมพ์ปรกโพธิ์</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>108</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17165801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17165801E-3546.jpg" alt="พระสมเด็จปิลันท์ พิมพ์เปลวเพลิงจิ๋ว ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17165801" class="view_products">
+					<h4>พระสมเด็จปิลันท์ พิมพ์เปลวเพลิงจิ๋ว </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>77</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17115801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17115801E-3030.jpg" alt="พระขุนแผนพิมพ์อกเล็ก">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17115801" class="view_products">
+					<h4>พระขุนแผนพิมพ์อกเล็ก</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>125</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17105801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17105801E-9475.jpg" alt="พระคงลำพูน กรุเก่า">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17105801" class="view_products">
+					<h4>พระคงลำพูน กรุเก่า</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>129</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17095801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17095801E-0964.jpg" alt="พระกรุวัดพระรูป พิมพ์ปรกชุมพล">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17095801" class="view_products">
+					<h4>พระกรุวัดพระรูป พิมพ์ปรกชุมพล</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>80</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17075801" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17075801E-2187.jpg" alt="พระสมเด็จปิลันท์ พิมพ์ซุ้มประตู">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17075801" class="view_products">
+					<h4>พระสมเด็จปิลันท์ พิมพ์ซุ้มประตู</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>90</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17014808" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17014808E-9042.jpg" alt="พระร่วงยืน พิมพ์ใหญ่ กรุวัดราชเดชะ จ.สุพรรณบุรี">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17014808" class="view_products">
+					<h4>พระร่วงยืน พิมพ์ใหญ่ กรุวัดราชเดชะ จ.สุพรรณบุรี</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>99</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">250,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17015080" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17015080E-6010.jpg" alt="นางแขนอ่อน กรุห้องสูง ชินเงิน อุตรดิตถ์">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17015080" class="view_products">
+					<h4>นางแขนอ่อน กรุห้องสูง ชินเงิน อุตรดิตถ์</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>87</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">5,500</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17013628" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17013628E-3517.jpg" alt="พระสมเด็จปิลันทน์ วัดระฆังฯ พิมพ์พระโมคคัลลาน์-พระสารีบุตร">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17013628" class="view_products">
+					<h4>พระสมเด็จปิลันทน์ วัดระฆังฯ พิมพ์พระโมคคัลลาน์-พระสารีบุตร</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>228</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">350,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK17055619" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK17055619E-7363.jpg" alt="แผงตัดนาดูน 16">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK17055619" class="view_products">
+					<h4>แผงตัดนาดูน 16</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>17.11.2566</span>
+							</td>
+							<td class="view">
+								<span>81</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">30,000</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16025439" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16025439E-2603.jpg" alt="พระกรุวัดตะไกรหน้ามงคลพิมพ์ใหญ่ อยุธยา">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16025439" class="view_products">
+					<h4>พระกรุวัดตะไกรหน้ามงคลพิมพ์ใหญ่ อยุธยา</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>36</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16015439" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16015439A-7401.jpg" alt="พระขุนแผนใบเสมาตัด กรุวัดมณเฑียร จ.อยุธยา ">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16015439" class="view_products">
+					<h4>พระขุนแผนใบเสมาตัด กรุวัดมณเฑียร จ.อยุธยา </h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>54</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16041794" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16041794E-6003.jpg" alt="พระคงขาวกรุเก่า จ.ลำพูน">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16041794" class="view_products">
+					<h4>พระคงขาวกรุเก่า จ.ลำพูน</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>101</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16125627" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16125627E-0315.jpg" alt="พระร่วงนั่งสนิมแดง กรุดอนกระโดน จ.ชัยนาท องค์ดารา">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16125627" class="view_products">
+					<h4>พระร่วงนั่งสนิมแดง กรุดอนกระโดน จ.ชัยนาท องค์ดารา</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>114</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16011634" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16011634E-6213.jpg" alt="พระนาวพญาพิมพ์เข่าโค้ง">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16011634" class="view_products">
+					<h4>พระนาวพญาพิมพ์เข่าโค้ง</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>182</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="call">โทรถาม</span>
+				
+		    </div>
+		</div>
+	</div>	<div class="c_20-d">
+		<div class="box_solid card_grid">
+		    <div class="thumbs">
+		    	<a href="https://www.thaprachan.com/amulet_detail/WK16021707" class="view_products" >
+		    		<img src="https://www.thaprachan.com/thumb/WK16021707E-6252.jpg" alt="พระเชตุพนหน้าโหนก เนื้อดิน จ.สุโขทัย">
+		    	</a>
+		    </div>
+		    <div class="type">
+		        <a href="https://www.thaprachan.com/amulet_detail/WK16021707" class="view_products">
+					<h4>พระเชตุพนหน้าโหนก เนื้อดิน จ.สุโขทัย</h4>
+					<table class="products_status">
+						<tr>
+							<td class="time">
+								<span>16.11.2566</span>
+							</td>
+							<td class="view">
+								<span>91</span>
+							</td>
+						</tr>
+					</table>
+				</a>
+		    </div>
+		  	<div class="clearfix card_footer">
+		    	<span class="card_status" role="sale">3,000</span>
+				
+		    </div>
+		</div>
+	</div></div> 						<!-- loop card --> 						<footer> 						<form method="post"> 	<input type="hidden" name="_token" value="NjPcvZf1YXwAcZzBh9gCwPr9SUpsF5kopwkvb6jK">	<div id="paging-down" class="paging"><a href="category-amulet/พระกรุ/2" class="previous_page">ก่อนหน้า</a><a href="category-amulet/พระกรุ">1</a><a href="category-amulet/พระกรุ/2">2</a><a href="category-amulet/พระกรุ/3" class="active">3</a><a href="category-amulet/พระกรุ/4">4</a><a href="category-amulet/พระกรุ/5">5</a> ... <a href="category-amulet/พระกรุ/80">80</a><a href="category-amulet/พระกรุ/4" class="next_page">ถัดไป</a>  		 		 		 		 		 		 		 		 		 		 		  		<div class="sort_pages"> 			<span>ไปยังหน้า</span> 			<input type="text" name="go_page"> 			<button class="btn">ตกลง</button> 		</div> 	</div> </form> 						</footer> 					</section> 					<!-- xxxxxxxxxxxxxxxxxxxxx --> 				</div> 			</article> 			<!--_____________________________________________________--> 			<aside class="sidebar_right set_pages"> 				<!-- <header class="i_con sponsor"> 					<h3>ผู้สนับสนุนเว็บไซต์</h3> 				</header> --> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<!-- <div id="ads-show" class="widget advertising"> 					<a href="" target="_blank" class="desktop_ads"><img src="images/content/ad--2.jpg" alt=""></a> 					<a href="" target="_blank" class="desktop_ads"><img src="images/content/ad--1.jpg" alt=""></a> 					<a href="" target="_blank" class="device_ads"><img src="images/content/device_ads_test.jpg" alt=""></a> 					<a href="" target="_blank" class="device_ads"><img src="images/content/device_ads_test.jpg" alt=""></a> 				</div> --> 				<!-- xxxxxxxxxxxxxxxxxxxxx --> 				<div class="widget news sidenews">  	<header class="show-desktop certificate">  		<a href="https://certificate.thaprachan.com/"><h3>ตรวจ Cer พระแท้</h3></a>  	</header>  	<header class="i_con news">  		<h3>ข่าวประชาสัมพันธ์</h3>  	</header>  	<div class="box_solid">  		<ul id="news-show">				<li class="clearfix">
+				  <a href="news-detail/57">
+					<div class="type">
+					  <h4>แจ้งวันปิดทำการ วันที่ 12 สิงหาคม 2566</h4>
+					  <time>11 . 08 . 2566</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/56">
+					<div class="type">
+					  <h4>โปรโมชั่นพิเศษ!! สำหรับลูกค้าที่นำพระมาออกบัตรรับรองหน้าร้าน และส่งมาทางไปรษณีย์</h4>
+					  <time>18 . 03 . 2565</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/52">
+					<div class="type">
+					  <h4>แจ้งเรื่องบัตรรับรองพระแท้ปลอม!!!</h4>
+					  <time>12 . 11 . 2563</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/29">
+					<div class="type">
+					  <h4>ข้อมูลการบริการออกบัตรรับรองพระแท้ และแบบส่งพระทางเคอรี่เอ็กซ์เพรสทั่วประเทศ</h4>
+					  <time>07 . 02 . 2562</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/22">
+					<div class="type">
+					  <h4>ท่าพระจันทร์ดอทคอมรับออกบัตรรับรองพระแท้ตามมาตรฐานสากล</h4>
+					  <time>27 . 11 . 2561</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/18">
+					<div class="type">
+					  <h4>ท่าพระจันทร์ดอทคอม บริการออกบัตรรับรองพระแท้ตามมาตรฐานสากล </h4>
+					  <time>01 . 11 . 2561</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/16">
+					<div class="type">
+					  <h4>ประกาศ ระบบตรวจเช็คบัตรรับรองพระแท้ว่ามีการออกจริงหรือไม่ ผ่านเว็บไซต์สามารถใช้งานได้แล้ว!</h4>
+					  <time>03 . 10 . 2561</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/13">
+					<div class="type">
+					  <h4>เปิดให้บริการอย่างเป็นทางการแล้ว! บริการออกบัตรรับรองพระแท้แบบส่งพระทางเคอรี่เอ็กซ์เพรสทั่วประเทศ</h4>
+					  <time>15 . 09 . 2561</time>
+					</div>
+				  </a>
+				</li>				<li class="clearfix">
+				  <a href="news-detail/1">
+					<div class="type">
+					  <h4>หนังสือคู่มือเครื่องรางยอดนิยม เปิดจองแล้ววันนี้!!!</h4>
+					  <time>14 . 11 . 2558</time>
+					</div>
+				  </a>
+				</li></ul>  		<footer class="permalink">  			<a href="news">ดูทั้งหมด +</a>  		</footer>  	</div>  </div>  				<!-- xxxxxxxxxxxxxxxxxxxxx --> 			</aside> 		</div> 	</main> 	<script> 		$('#product-show').waypoint(function(direction) { 			if (direction === 'down') { 				$('.page_function_search').addClass('sticky'); 			}else { 				$('.page_function_search').removeClass('sticky'); 			} 		}); 	</script>  	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> 		<footer role="contentinfo"> 		<div class="fixwidth temp_footer"> 			<div class="temp_footer--logo"> 				<img src="images/Thaprachan_Logo--Original.svg" alt=""> 			</div> 			<nav class="temp_footer--navigation"> 				<ul> 					<li> 						<a href="https://www.thaprachan.com">หน้าหลัก</a> 						<a href="amulet">รายการอัพเดท</a> 					</li> 					<li> 						<a href="amulet-top">รายการพระเด่น</a> 						<a href="shop">ร้านพระมาตรฐาน</a> 					</li> 					<li> 						<a href="news">ข่าวประชาสัมพันธ์</a> 						<a href="regulations">ระเบียบการใช้งาน</a> 					</li> 					<li> 						<a href="contact">ติดต่อ</a> 					</li> 				</ul> 			</nav> 			<div class="temp_footer--copyright"> 				<span style="font-size: 16px; padding-bottom: 10px; display:inline-block;"> 					บริหารงานโดย ศุภชัย เรืองสรรงามสิริ ( ตี๋เหล้า ท่าพระจันทร์ ) 				</span> 				<br> 				<span> 					สงวนลิขสิทธิ์เนื้อหาทั้งหมด พ.ศ. 2566 บริษัท ท่าพระจันทร์ ดอทคอม จำกัด 					<br> 					Copyright&copy; 2023 Thaprachan Dotcom Co.,Ltd., All Rights Reserved. 				</span> 			</div> 		</div> 		<input id="noti_product" type="hidden" value="2249599"> 	</footer> 	<div id="show-alert" style="display:none;width:0px;height:0px;"></div> 	<div id="show-popup" style="display:none;width:0px;height:0px;"></div>   	<script>  	var set_time_noti; 	var log_click = true; 	var log_click2 = true; 	var log_click3 = true; 	var run_noti = 15000; 	var max_noti = 10; 	var noti_var = 0; 	var view_product = $('#noti_product').val();  	function notification() 	{ 		$.get('check_notification/'+view_product, function (data) { 			if(data > noti_var) 			{ 				noti_var = data;  				/*console.log(data+' '+view_product+' '+noti_var);*/  				update_notification(); 			}  			if(noti_var <= max_noti) 			{ 				set_notification(); 			} 		}); 	}  	function update_notification() 	{ 		if(noti_var <= 0) 		{ 			$('.data_counter').html(''); 			$('.data_counter').hide(); 		} 		else if(noti_var <= max_noti) 		{ 			$('.data_counter').show(); 			$('.data_counter').html(noti_var); 		} 		else 		{ 			$('.data_counter').show(); 			$('.data_counter').html(max_noti+'+'); 		} 	}  	function set_notification() 	{ 		set_time_noti = setTimeout( function() { notification() }, run_noti); 	}  	function clear_notification() 	{ 		noti_var = 0; 		update_notification(); 		clearTimeout(set_time_noti); 	}  	function close_notification() 	{ 		$('.notifications.active').removeClass('active'); 		set_notification(); 	}  	function open_notification() 	{ 		if($(".notifications").hasClass('active')) 		{ 			close_notification(); 		} 		else 		{ 			clear_notification();  			$('.notifications').html('Loading...');  			$.get('products_update/'+view_product, function (data) { 				/*success data 				console.log(data);*/ 				$('.notifications').html(data);  				view_product = $('#noti_product_update').val();  				show_popup(); 			});  			/*$( ".notifications" ).toggleClass( "active" );*/ 			$( ".notifications" ).addClass( "active" ); 			log_click = false; 			setTimeout( function() { log_click = true }, 100); 		} 	}  	function open_user_info() 	{ 		$( ".account_information" ).toggleClass( "active" ); 		log_click2 = false; 		setTimeout( function() { log_click2 = true }, 100); 	}  	function open_shop_contact() 	{ 		$( ".merchant_contact" ).addClass( "active" ); 		$( "body" ).addClass( "clearscroll" ); 		force_close(); 	}  	function force_close() 	{ 		log_click3 = false; 		setTimeout( function() { log_click3 = true }, 100); 	}  	function close_popup_product() 	{ 		$( ".products_detail" ).removeClass( "active" ); 		$( "body" ).removeClass( "clearscroll" );  		$('.products_detail').html(''); 		$('#popup_open').val(''); 	}  	function close_popup_login() 	{ 		$( ".user_login" ).removeClass( "active" ); 		$( "body" ).removeClass( "clearscroll" ); 	}  	function close_popup_shop_contact() 	{ 		$( ".merchant_contact" ).removeClass( "active" ); 		$( "body" ).removeClass( "clearscroll" ); 	}  	function close_popup_alphabet() 	{ 		$( ".alphabets_functions" ).removeClass( "active" ); 		$( "body" ).removeClass( "clearscroll" ); 	}  	function close_menu_navigation() 	{ 		$( ".main_menu--navigation" ).removeClass( "active" ); 		$( "body" ).removeClass( "mask_shade" ); 	}  	function close_popup() 	{ 		close_popup_login(); 		close_popup_product(); 		close_popup_alphabet(); 		close_popup_shop_contact(); 	}  	var chk_close_popup = true;  	$( document ).ready(function() { 		$("html").on('touchend click', function(e) { 			/*console.log($(e.target)); 			console.log($(e.target).offsetParent());*/  			e.stopPropagation();  			if($("body").hasClass('clearscroll') && log_click3) 			{ 				if (chk_close_popup && $(e.target).offsetParent().prop("tagName").toLowerCase() == 'html') { 					set_close = setTimeout(function(){ close_popup(); }, 100); 				} 				chk_close_popup = true; 			}  			if($(".notifications").hasClass('active') && log_click) 			{ 				/*console.log($(e.target).prop("class").toLowerCase()); 				console.log($(e.target).parent().prop("class").toLowerCase());*/ 				if($(e.target).prop("class").toLowerCase().indexOf('notifications_title') < 0 && $(e.target).parent().prop("class").toLowerCase().indexOf('notifications_title') < 0 && $(e.target).prop("class").toLowerCase().indexOf('notifications') < 0 && $(e.target).prop("class").toLowerCase().indexOf('notifications_list--group') < 0 && $(e.target).prop("class").toLowerCase().indexOf('notifications_list') < 0 && $(e.target).prop("class").toLowerCase().indexOf('view_noti') < 0 && $(e.target).parent().prop("class").toLowerCase().indexOf('view_noti') < 0) 				{ 					close_notification(); 				} 				/*console.log(e.target); 				console.log($(e.target).offsetParent()); 				console.log($(e.target).offsetParent().prop("class").toLowerCase()); 				console.log($(e.target).offsetParent().prop("tagName").toLowerCase()); 				if ($(e.target).offsetParent().prop("tagName").toLowerCase() == 'html') { 					/*close_notification();/ 				}  				if ($(e.target).offsetParent().hasClass('active')) { 					/*return false;/ 				} 				else 				{ 					/*open_notification();/ 				}*/ 			}  			if($(".account_information").hasClass('active') && log_click2) 			{ 				if ($(e.target).offsetParent().hasClass('active')) { 					/*return false;*/ 				} 				else 				{ 					open_user_info(); 				} 			} 		});  		$('.products_lists .card_grid .type').matchHeight({byRow: true});  		$('.products_lists').imagesLoaded() 			.always( function( instance ) { 			/*console.log('all images loaded');*/ 			}) 			.done( function( instance ) { 			/*console.log('all images successfully loaded');*/ 			$('.products_lists .card_grid .type').matchHeight._update(); 			}) 			.fail( function() { 			/*console.log('all images loaded, at least one is broken');*/ 			}) 			.progress( function( instance, image ) { 			/*var result = image.isLoaded ? 'loaded' : 'broken'; 			console.log( 'image is ' + result + ' for ' + image.img.src );*/ 		});  		$('.shop_lists .shop_info').matchHeight({byRow: true});  		$('.shop_lists').imagesLoaded() 			.always( function( instance ) { 			/*console.log('all images loaded');*/ 			}) 			.done( function( instance ) { 			/*console.log('all images successfully loaded');*/ 			$('.shop_lists .shop_info').matchHeight._update(); 			}) 			.fail( function() { 			/*console.log('all images loaded, at least one is broken');*/ 			}) 			.progress( function( instance, image ) { 			/*var result = image.isLoaded ? 'loaded' : 'broken'; 			console.log( 'image is ' + result + ' for ' + image.img.src );*/ 		});  		$( ".swap_notifications" ).click(function() { 			open_notification(); 		}); 		$( ".show--user_info" ).click(function() { 			open_user_info(); 		});  		$( ".send-merchant_contact" ).click(function() { 			open_shop_contact(); 		}); 		$( ".close_merchant" ).click(function() { 			close_popup_shop_contact(); 		}); 		$( ".show_alphabet" ).click(function() { 			$( ".alphabets_functions" ).addClass( "active" ); 			$( "body" ).addClass( "clearscroll" ); 			force_close(); 		}); 		$( ".close_alphabets" ).click(function() { 			close_popup_alphabet(); 		}); 		$( ".show_login" ).click(function() { 			$( ".user_login" ).addClass( "active" ); 			$( "body" ).addClass( "clearscroll" ); 			close_menu_navigation(); 			force_close(); 		}); 		/*$( ".close_login" ).click(function() { 			close_popup_login(); 		});*/ 		$( ".toggle_menu" ).click(function() { 			$( ".main_menu--navigation" ).toggleClass( "active" ); 			$( "body" ).toggleClass( "mask_shade" ); 		}); 		$( ".show_category" ).click(function() { 			$( ".sort_category" ).toggleClass( "active" ); 			$( ".area" ).toggleClass( "clear_position" ); 		});  		$( "#login_link" ).click(function() { 			chk_close_popup = false; 			$( "#forgot_form" ).hide(); 			$( "#login_form" ).show(); 		});  		/* 		$( "#forgot_link" ).click(function() { 			chk_close_popup = false; 			$( "#login_form" ).hide(); 			$( "#forgot_form" ).show(); 		}); 		*/ 		 /* 		  $("html, body").click(function(e) { 			  if ($(e.target).hasClass('active')) { 				  return false; 			  } 			  $('.notifications.active').removeClass('active'); 		  }); 		*/  		$('.list_horizon--thumb_type .card_white').matchHeight({byRow: true}); 		$('.list_horizon--thumb_type .card_white .type>h5').matchHeight({byRow: true}); 		$('.list_horizon--thumb_type .card_white .type>div').matchHeight({byRow: true});  		set_notification();  	});  	</script> 	<!-- ////////////////////////////////////////////////////////////////////////////////////////// --> </body> </html>
